@@ -29,13 +29,7 @@ const divCartasComputadora = document.querySelector('#computadora-cartas');
 const puntosHTML = document.querySelectorAll('small');
 
 
-
 deck = crearDeck( tipos, especiales );
-
-
-
-
-
 
 // Eventos
 btnPedir.addEventListener('click', () => {
